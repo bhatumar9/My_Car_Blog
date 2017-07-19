@@ -1,0 +1,182 @@
+body
+{
+  margin: 0;
+}
+.full-header
+{
+ height: 150px;
+ background-color: #eee;
+ box-shadow: 2px 0px 5px 5px #aaa;
+ width: 100%;
+
+}
+
+.logo,nav,nav ul li
+{
+display: inline-block;
+}
+
+.logo
+{
+  max-height: 170px;
+  margin-left: 50px;
+}
+nav{
+  float: right;
+  margin-right: 30px;
+}
+nav:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+nav ul{
+  margin-top: 0;
+  box-shadow: 5px 5px 5px 1px black;
+  padding-left: 0;
+}
+nav ul li
+{
+  padding: 8px 25px;
+  background: maroon;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-right: 2px solid black;
+
+
+}
+nav ul li:hover
+{
+  background: red;
+}
+
+nav ul li:first-child
+{
+
+}
+nav ul li:last-child
+{
+
+  border: none;
+}
+.date-time
+{
+  text-align: right;
+  color: #aaa;
+  font-size: 22px;
+  line-height: 70px;
+}
+.date-time, li, h1,h2, h6
+{
+  font-family:  "Garamond", "helvetica", "Roboto";
+  text-transform: capitalize;
+}
+.jumbotron
+{
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  background: black;
+
+
+}
+.carousol
+{
+  display: inline-block;
+  padding: 15px 0px;
+  text-align: center;
+  border: 5px solid white;
+}
+
+.img_dimensions
+{
+  max-height: 200px;
+}
+
+ q
+ {
+  padding: 15px;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+ }
+ .post_collections,.timeline
+ {
+   display: inline-block;
+ }
+ .timeline{
+   width: 25%;
+   text-align: center;
+   vertical-align: top;
+   padding: 30px 0px;
+ }
+ .month{
+   height: 50px;
+   width: 50px;
+   border-radius: 25px;
+   background: black;
+   color:white;
+   line-height: 50px;
+   margin: auto;
+ }
+ .flow_line
+ {
+   height: 80px;
+   width: 2px;
+   background: grey;
+   margin: auto;
+
+ }
+ .post_collections
+ {
+  width: 70%;
+  padding: 15px;
+ }
+ .blog-body
+ {
+   display: block;
+ }
+ .post
+ {
+   border: 1px solid #ddd;
+   background-color: #eee;
+   padding: 15px;
+   margin: 15px 0px;
+
+ }
+ .post_title
+ {
+   margin-bottom: 0;
+   padding: 2px 15px;
+   font-size: 26px;
+ }
+ .post_subtitle{
+   margin-top: 0;
+   margin-bottom: 5px;
+   padding: 0px 15px;
+   font-size: 16px;
+   font-style: italic;
+
+ }
+.post p
+{
+  font-family:  "Garamond", "helvetica", "Roboto";
+  text-indent: 20px;
+  padding: 15px;
+  background: #ccc;
+  box-shadow: inset 0px 0px 4px 7px #ddd;
+}
+
+footer
+{
+background-color: maroon;
+color: white;
+
+}
+footer>h3{
+  line-height:110px;
+  margin-bottom: 0;
+  padding: 0px 15px;
+}
